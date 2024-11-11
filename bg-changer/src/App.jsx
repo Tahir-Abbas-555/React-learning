@@ -42,6 +42,21 @@ function App() {
           style={{backgroundColor:"pink"}}>
           pink
         </button>
+        <button onClick={() => setcolor("black")} 
+          className='outline-none px-4 px-1 rounded-full text-white shadow-lg ' 
+          style={{backgroundColor:"black"}}>
+          black
+        </button>
+        <button onClick={() => setcolor("purple")} 
+          className='outline-none px-4 px-1 rounded-full text-white shadow-lg ' 
+          style={{backgroundColor:"purple"}}>
+          purple
+        </button>
+        <button onClick={() => setcolor("violet")} 
+          className='outline-none px-4 px-1 rounded-full text-white shadow-lg ' 
+          style={{backgroundColor:"violet"}}>
+          violet
+        </button>
         </div>
       </div>
     </div>
